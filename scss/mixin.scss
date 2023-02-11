@@ -1,0 +1,17 @@
+@import "variables";
+
+@mixin container(){
+    max-width: $con;
+    background: white;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+@mixin p($fSize){
+    font-style: normal;
+    font-weight: 700;
+    font-size: $fSize;
+    line-height: 140%;
+    color: #FFFFFF;
+}
