@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="icon" href="css/images/favicon.png" type="image/x-icon">
+    <title>A Royal</title>
+</head>
+<body>
+<div class="phone__menu" id="phoneMenu">
+    <div class="phone__links">
+        <a href="#">Main</a>
+        <a href="#anchor__about">About</a>
+        <a href="#">Tournaments</a>
+        <a href="#">Services</a>
+        <a href="#">Tennis for kids</a>
+        <a href="#">Gallery</a>
+        <a href="#">Price</a>
+        <a href="#">Contacts</a>
+    </div>
+</div>
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar__holder">
+            <a href="#" class="navbar__brand"><img src="css/images/brand.png"></a>
+            <div class="navbar__links">
+                <a href="#" onclick="phoneMenu()">Main</a>
+                <a href="#anchor__about">About</a>
+                <a href="#">Tournaments</a>
+                <a href="#">Services</a>
+                <a href="#">Tennis for kids</a>
+                <a href="#">Gallery</a>
+                <a href="#">Price</a>
+                <a href="#">Contacts</a>
+            </div>
+            <div class="navbar__social-media">
+                <a href="https://www.youtube.com/"><img src="css/images/telegram.png"></a>
+                <a href="https://web.telegram.org/"><img src="css/images/youtube.png"></a>
+            </div>
+            <div class="burger" onclick="menuBar(this), phoneMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="wrapper">
+    <section class="header">
+        <div class="header__body">
+            <h1 class="header__title">Tennis club A Royal</h1>
+            <div class="card__holder">
+                <div>
+                    <p class="smaller">Услуги</p>
+                    <p>Аренда корта<a href="#"><img src="css/images/mini-link.png"></a></p>
+                </div>
+                <div>
+                    <p class="smaller">Услуги</p>
+                    <p>Детский теннис<a href="#"><img src="css/images/mini-link.png"></a></p>
+                </div>
+                <div>
+                    <p class="smaller">Услуги</p>
+                    <p>Сборы команд<a href="#"><img src="css/images/mini-link.png"></a></p>
+                </div>
+                <div>
+                    <p class="smaller">Турниры</p>
+                    <p>Расписание<a href="#"><img src="css/images/mini-link.png"></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block" id="first">
+        <div class="container">
+           <h2 class="advantages__title">Our advantages</h2>
+            <div class="advantage__holder">
+                <div class="advantage__card"><img class="advantage__img" src="css/images/advantage_img1.png">
+                <h3 class="advantage__title">5 summer clay courts</h3>
+                </div>
+                <div class="advantage__card"><img class="advantage__img" src="css/images/advantage_img2.png">
+                <h3 class="advantage__title">Hall with “Artificial Grass” coating</h3>
+                </div>
+                <div class="advantage__card"><img class="advantage__img" src="css/images/advantage_img3.png">
+                <h3 class="advantage__title">Hall with "Hard" coating</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name="anchor__about"class="anchor"></a>
+    <section class="block">
+        <div class="container club">
+            <div class="club__holder">
+                <div class="club__image">
+                    <img class="club__img" src="css/images/club.jpg">
+                </div>
+                <div class="club__info">
+                <div class="club__info-holder">
+                    <h2 class="club__title">Sport Club</h2>
+                    <p class="club__pararaph">Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit turpis. Ultricies erat pretium risus quam tincidunt non viverra porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit mauris vitae amet aliquet ultrices mauris pellentesque. Non ipsum commodo, sit mi sit netus aenean nisl. ]Donec sit pellentesque enim, vestibulum. Condimentum hac adipiscing purus in augue nisi. Convallis ut nisi.</p>
+                    <h4 class="club__subtitle">Ornare orci ut dictum nulla fames. </h4>
+                    <p class="club__list"><span class="club__point"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="club__list"><span class="club__point"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="club__list"><span class="club__point"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="club__list"><span class="club__point"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block">
+        <div class="container">
+            <div class="coach__holder">
+                <div class="upper">
+                    <h2 class="coach__title">Coaches</h2>
+                    <div class="swiper__buttons">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+
+                        <div class="slide__card">
+                            <img src="css/images/coach (1).png">
+                            <h4 class="card__title">Pulvinar aliquam</h4>
+                            <p class="card__desc">Arcu elit massa amet turpis vel consequat pellentesque sit. </p>
+                        </div>
+
+                        <div class="slide__card">
+                            <img src="css/images/coach (2).png">
+                            <h4 class="card__title">Pretium odio</h4>
+                            <p class="card__desc">Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo lorem morbi quis. </p>
+                        </div>
+
+                        <div class="slide__card">
+                            <img src="css/images/coach (3).png">
+                            <h4 class="card__title">Aliquet consectetur</h4>
+                            <p class="card__desc">Id sapien sed nibh fermentum massa posuere ipsum. Diam in.</p>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="slide__card">
+                            <img src="css/images/coach (4).png">
+                            <h4 class="card__title">Blandit augue</h4>
+                            <p class="card__desc">Scelerisque accumsan pretium justo, vitae elit. Dolor semper morbi sit auctor vel diam eros. </p>
+                        </div>
+                        
+                        <div class="slide__card">
+                            <img src="css/images/coach (5).png">
+                            <h4 class="card__title">Lorem lacus</h4>
+                            <p class="card__desc">Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus.  </p>
+                        </div>
+                        
+                        <div class="slide__card">
+                            <img src="css/images/coach (6).png">
+                            <h4 class="card__title">Sed erat</h4>
+                            <p class="card__desc">Quis ullamcorper pretium lacus risus tellus dolor etiam.  </p>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block" id="<block_></block_>_last">
+        <div class="container">
+            <div class="services">
+                <div class="services__holder">
+                    <h2 class="price__title" id="anchor__services">Price and abonements</h2>
+                    <div class="service__main">
+                        <div class="price__button-holder">
+                            <button class="price__button">Season 2022-2023 <span class="button__arrow"></span></button>
+                            <button class="price__button">Abonements<span class="button__arrow"></span></button>
+                            <button class="price__button">Discount<span class="button__arrow"></span></button>
+                            <button class="price__button">More services<span class="button__arrow"></span></button>
+                        </div>
+                        <div class="service__card">
+                            <p class="service__title">Сozy сafe</p>
+                            <img src="css/images/services.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer__body">
+            <div class="rights__reserved"><p>2022 © All rights reserved</p></div>
+            <div class="footer__links">
+                <a href="#" class="footer__link">Main</a>
+                <a href="#anchor__about" class="footer__link">About</a>
+                <a href="#" class="footer__link">Tournaments</a>
+                <a href="#" class="footer__link">Services</a>
+                <a href="#" class="footer__link">Tennis for kids</a>
+                <a href="#" class="footer__link">Gallery</a>
+                <a href="#anchor__services" class="footer__link">Price</a>
+                <a href="#" class="footer__link">Contacts</a>
+            </div>
+            <div class="footer__icons">
+                <img src="css/images/telegram.png">
+                <img src="css/images/youtube.png"> 
+            </div>
+        </div>
+    </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/java.js"></script>
+</body>
+</html>
